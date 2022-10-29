@@ -27,5 +27,15 @@ if (numberOne > numberTwo) {
   alert(`O número maior é o ${numberTwo} e a diferença é: ${numberTwo - numberOne}`);
 }
 
+// Segunda Tarefa
 
+let number1 = parseFloat(prompt("Digite o primeiro número"));
+let number2 = parseFloat(prompt("Digite o segundo número"));
 
+if (number1 > number2) {
+  alert(`O número ${number1} é maior que o número ${number2}`);
+} else if (number2 == number1) {
+  alert(`Números iguais`);
+} else {
+  alert(`O número ${number2} é maior que o número ${number1}`);
+} 
