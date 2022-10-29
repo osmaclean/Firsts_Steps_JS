@@ -22,9 +22,9 @@ let numberOne = parseInt(prompt("Digite o primeiro número inteiro"));
 let numberTwo = parseInt(prompt("Digite o segundo número inteiro"));
 
 if (numberOne > numberTwo) {
-  alert(`O número maior é o ${numberOne} e a diferença é ${numberOne - numberTwo}`);
+  alert(`O número maior é o ${numberOne} e a diferença é: ${numberOne - numberTwo}`);
 } else {
-  alert(`O número maior é o ${numberTwo} e a diferença é ${numberTwo - numberOne}`);
+  alert(`O número maior é o ${numberTwo} e a diferença é: ${numberTwo - numberOne}`);
 }
 
 
