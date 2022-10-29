@@ -21,8 +21,11 @@ alert(
 let numberOne = parseInt(prompt("Digite o primeiro número inteiro"));
 let numberTwo = parseInt(prompt("Digite o segundo número inteiro"));
 
-let maiorNumero = (numberOne > numberTwo);
-let divisao = (numberTwo % numberOne);
+if (numberOne > numberTwo) {
+  alert(`O número maior é o ${numberOne} e a diferença é ${numberOne - numberTwo}`);
+} else {
+  alert(`O número maior é o ${numberTwo} e a diferença é ${numberTwo - numberOne}`);
+}
 
-alert(`O número maior é o ${maiorNumero} e a diferença é ${divisao}`);
+
 
