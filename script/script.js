@@ -53,3 +53,15 @@ if (somaValor > valorEmpres) {
 }
 
 // Quarta Tarefa
+
+let numero = parseInt(prompt("Insira um número divisível por 3 ou 5"));
+
+if (numero % 3 == 0 && numero % 5 == 0) {
+  alert(`Valor Inválido`)
+} else if (numero % 3 == 0){
+alert(`O número é divisível por 3`)
+} else if (numero % 5 == 0){
+  alert(`O número é divisível por 5`)
+} else if (numero % 2 == 0){
+ alert(`É par!`)
+}
