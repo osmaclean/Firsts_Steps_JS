@@ -88,4 +88,15 @@ if (semana == 1){
   alert(`Erro 404 Not Found!`)
  }
 
- // Sexta Tarefa
+// Sexta Tarefa
+
+let salarioFuncionario = parseInt(prompt("Insira o valor do seu salário"));
+let reajuste = parseFloat(prompt("Insira o valor do reajuste de até 5%"));
+
+let calculoPercentual = (salarioFuncionario * (reajuste / 100));
+
+let valorFinal = salarioFuncionario + calculoPercentual;
+
+if (calculoPercentual > 5){
+ alert(`O salário do funcionário corrigido é de: R$${valorFinal}`);
+}
