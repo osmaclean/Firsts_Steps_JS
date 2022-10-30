@@ -1,7 +1,7 @@
 
 // Tarefa Exemplo
 
-/*let nomeCliente = prompt("Digite o nome do cliente");
+let nomeCliente = prompt("Digite o nome do cliente");
 let qtdPaes = parseInt(prompt("Quantas unidades de pães ?"));
 
 let valorCompra = parseFloat(qtdPaes * 0.75);
@@ -99,7 +99,7 @@ let valorFinal = salarioFuncionario + calculoPercentual;
 
 if (calculoPercentual > 5){
  alert(`O salário do funcionário corrigido é de: R$${valorFinal}`);
-}*/
+}
 
 // Sétima Tarefa 
 
@@ -108,3 +108,16 @@ let cotacaoDolar = parseFloat(prompt("Insira o valor da cotação do Dólar"))
 
 let conversao = valorDolar * cotacaoDolar;
 alert(`$${valorDolar} é equivalente a R$${conversao.toFixed(2)} tendo ${cotacaoDolar} como cotação.`)
+
+// Oitava Tarefa
+
+let tempo = parseInt(prompt("Digite o tempo"));
+let velocidadeMedia = parseInt(prompt("Digite a velocidade"));
+let distancia = tempo * velocidadeMedia;
+let litrosUsados = distancia / 12;
+
+alert(`Seu veículo percorreu ${distancia.toFixed(2)}km a ${velocidadeMedia} km/h em ${tempo}h de viagem e consumiu ${litrosUsados.toFixed(2)}l de gasolina. `)
+
+
+
+
