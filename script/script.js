@@ -118,6 +118,16 @@ let litrosUsados = distancia / 12;
 
 alert(`Seu veículo percorreu ${distancia.toFixed(2)}km a ${velocidadeMedia} km/h em ${tempo}h de viagem e consumiu ${litrosUsados.toFixed(2)}l de gasolina. `)
 
+// Nona Tarefa
 
+let valor1 = parseInt(prompt("Insira um valor"))
+let taxa = parseInt(prompt("Insira a taxa"))
+let tempo1 = parseFloat(prompt("Insira o tempo"))
 
+let atrasoDaFatura = valor1 + (valor1 * (taxa/100) * tempo1)
 
+if (tempo1 < 1){
+alert(`Valor inválido, o tempo de atraso deve ser em dias.`)
+} else {
+  alert (`O valor da fatura é de R$${atrasoDaFatura}`)
+}
