@@ -1,7 +1,7 @@
 
 // Tarefa Exemplo
 
-/*let nomeCliente = prompt("Digite o nome do cliente");
+let nomeCliente = prompt("Digite o nome do cliente");
 let qtdPaes = parseInt(prompt("Quantas unidades de pães ?"));
 
 let valorCompra = parseFloat(qtdPaes * 0.75);
@@ -13,7 +13,7 @@ let hoje = new Date(data).toUTCString();
 
 alert(
   `${nomeCliente} - Valor da compra: ${valorCompra} - Produto: Pães - Quantidade: ${qtdPaes} - Data: ${hoje} `
-);*/
+);
 
 
 // Primeira Tarefa
@@ -39,3 +39,17 @@ if (number1 > number2) {
 } else {
   alert(`O número ${number2} é maior que o número ${number1}`);
 } 
+
+// Terceira Tarefa
+
+let salario = parseFloat(prompt("Digite o valor do seu salário"));
+let valorEmpres = parseFloat(prompt("Digite o valor da prestação que deseja pagar"));
+let somaValor = salario * 0.3
+
+if (somaValor > valorEmpres) {
+  alert(`Empréstimo concedido`)
+} else if (somaValor < valorEmpres) {
+  alert(`Empréstimo não concedido`)
+}
+
+// Quarta Tarefa
