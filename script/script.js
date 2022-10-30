@@ -131,3 +131,5 @@ alert(`Valor inválido, o tempo de atraso deve ser em dias.`)
 } else {
   alert (`O valor da fatura é de R$${atrasoDaFatura}`)
 }
+
+//Finish
