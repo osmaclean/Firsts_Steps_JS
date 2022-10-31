@@ -132,4 +132,6 @@ alert(`Valor inválido, o tempo de atraso deve ser em dias.`)
   alert (`O valor da fatura é de R$${atrasoDaFatura}`)
 }
 
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado e execução de fórmulas e condições.`);
 //Finish
